@@ -1,10 +1,8 @@
-# 🌱 Registro de Visitas Técnicas Agrícolas
+# Registro de Visitas Técnicas Agrícolas
 
 Aplicativo mobile desenvolvido em **React Native com Expo** para registrar visitas técnicas agrícolas de forma prática. O app permite cadastrar informações das visitas, utilizar a localização do dispositivo, selecionar imagens e buscar produtores diretamente na agenda do celular.
 
----
-
-## 📱 Funcionalidades
+## Funcionalidades
 
 - Cadastro de visitas técnicas agrícolas.
 - Registro de localização da visita.
@@ -12,9 +10,7 @@ Aplicativo mobile desenvolvido em **React Native com Expo** para registrar visit
 - Busca de produtores na agenda do celular.
 - Lista de contatos otimizada com paginação e busca.
 
----
-
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - React Native
 - Expo
@@ -24,9 +20,7 @@ Aplicativo mobile desenvolvido em **React Native com Expo** para registrar visit
 - Expo Image Picker
 - Expo Contacts
 
----
-
-# 🚀 Como rodar o projeto (passo a passo completo)
+# Como rodar o projeto
 
 ## 1. Instalar os pré-requisitos
 
@@ -42,8 +36,6 @@ git clone <url-do-repositorio>
 cd meu-app-agricola
 ```
 
-Substitua `<url-do-repositorio>` pelo link do seu repositório no GitHub.
-
 ## 3. Instalar as dependências
 
 No terminal, dentro da pasta do projeto:
@@ -51,9 +43,6 @@ No terminal, dentro da pasta do projeto:
 ```bash
 npm install
 ```
-
-Esse comando instala todas as dependências do projeto.
-
 ## 4. Confirmar a versão dos pacotes do Expo
 
 Instale os pacotes utilizados pelo aplicativo:
@@ -61,7 +50,6 @@ Instale os pacotes utilizados pelo aplicativo:
 ```bash
 npx expo install expo-location expo-image-picker expo-contacts
 ```
-
 ## 5. Conferir as permissões
 
 Abra o arquivo **app.json** e confirme que o projeto possui permissões para:
@@ -93,9 +81,6 @@ O Expo abrirá uma página no navegador com um QR Code.
 4. Aguarde o aplicativo carregar.
 
 O projeto será executado diretamente no celular.
-
----
-
 ## 📁 Estrutura básica do projeto
 
 ```text
@@ -106,8 +91,6 @@ O projeto será executado diretamente no celular.
 ├── package.json       # Dependências
 └── ...
 ```
-
----
 
 ## 🎯 Objetivo do projeto
 
